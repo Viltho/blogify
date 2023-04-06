@@ -2,11 +2,10 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 
 function ModalProfile(props) {
 
- const thedate = props.dob.substring(0,10);
   const updatePro = async (e) => {
     e.preventDefault();
     let obj = {
