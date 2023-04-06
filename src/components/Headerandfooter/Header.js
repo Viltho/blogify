@@ -5,17 +5,18 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Image from 'react-bootstrap/Image';
 import logo from '../../assets/Blogify.png';
-import Dropdown from 'react-bootstrap/Dropdown';
 import Button from '@mui/material/Button';
 import axios from 'axios';
 
 export default function Header(props) {
+
   const { user, isAuthenticated, loginWithRedirect, isLoading, logout, error } = useAuth0();
 
   const [name, setname] = useState('');
   const [image, setimage] = useState('');
 
   const addUsers = async () => {
+    console.log(user);
     const datafromAuth = {
       userFullName: user.name,
       email: user.email
@@ -28,7 +29,6 @@ export default function Header(props) {
   }
 
   useEffect((e) => {
-    console.log(image);
     addUsers(e);
   }, [])
 
