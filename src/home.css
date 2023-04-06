@@ -1,0 +1,113 @@
+.hometheplacewhereibelong {
+    background-color: #9cc0f8c9;
+}
+
+.createpostcard {
+    padding: 10px 0px 0px 0px;
+}
+
+.postcard {
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.postcard .button {
+    border-radius: 30px;
+    width: 80%;
+    height: auto;
+}
+
+.profileimage {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.section1post {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 10px;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+
+.section1post p {
+    margin-top: 5px;
+}
+
+.postimagecontainer {
+    width: 300px;
+    height: 250px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center ;
+
+}
+
+.postinfo {
+    width: 100%;
+    border-left: 1px solid rgb(202, 202, 202);
+}
+
+.postimage {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.titleinpostinhome {
+    width:50%;
+}
+
+.profileinpostinhome {
+    display: flex;
+    justify-content: end;
+    width:50%
+}
+
+.newsdivone {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 500px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/004/216/831/original/3d-world-news-background-loop-free-video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 2px;
+}
+
+.newsdivtwo {
+    width: 60%;
+    height: 350px;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+.innewsone {
+    height: 50%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0,0.1));
+}
+
+.innewstwo * {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.innewstwo {
+    height: 50%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgb(0, 0, 0,0.8));
+}
+
+.imginnewscaru {
+    image-resolution:inherit;
+    border-radius: 5px;
+}
+
+.news{
+    margin-top: 85px;
+}

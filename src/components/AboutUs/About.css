@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.every {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.wrapper {
+    height: 650px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/blog.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+article {
+    padding: 150px;
+}
+
+article h1 {
+    font-family: 'Dancing Script', cursive !important;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+blockquote {
+    font-family: 'Lobster', cursive;
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-align: center;
+    padding: 70px;
+}

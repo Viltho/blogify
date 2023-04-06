@@ -1,0 +1,136 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+ 
+  .postitle{
+    font-family: 'Lily Script One', cursive !important;
+  }
+  .cardtitle{
+    font-family: 'Alkatra', cursive;
+  }
+
+  .about-pc span{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 17px;
+  }
+
+.cardinprofilec {
+    padding: 15px;
+    width: 350px;
+    background: #434362c4;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    user-select: none;
+}
+
+.cover-photo-pc {
+    position: relative;
+    background: url(https://i.imgur.com/jxyuizJ.jpeg);
+    background-size: cover;
+    height: 180px;
+    border-radius: 5px 5px 0 0;
+}
+
+.profile-pc {
+    position: absolute;
+    width: 135px;
+    bottom: -60px;
+    left: 15px;
+    border-radius: 50%;
+}
+
+
+.profile-name-pc {
+    font-size: 20px;
+    margin: 25px 0 0 120px;
+    color: #fff;
+}
+
+.about-pc {
+    margin-top: 30px;
+    line-height: 1.6;
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    padding: 20px;
+    background-color: #12152a61;
+    border-radius: 20px;
+}
+
+.chat-icon {
+    display: flex !important;
+    background-color:#5aad7e !important;
+    align-items: center;
+}
+
+.likebold{
+   color: blue;
+   }
+
+
+   .shiny{
+    position:relative;
+    overflow:hidden;
+    display:inline-block;
+}
+
+.shiny:after {
+    content: "";
+    position: absolute;
+    top: -20%;
+    left: 120%;
+    width: 50%;
+    height: 200%;
+    background: #FFF;
+    opacity: 0.4;
+    
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+    
+    -ms-transform: skewX(-23deg);
+    -webkit-transform: skewX(-23deg);
+    transform: skewX(-23deg); 
+  
+    will-change: transform;
+}
+    
+
+.shiny:hover:after {
+    left:-200%;
+    opacity:0.3;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.cardedit{
+    background-color: #ffffff87 !important;
+    width: 100%;
+}
+
+.cardedit:hover{
+    background-color: #ffffff !important;
+}
+
+.profilebg {
+    background-color: #9cc0f8c9;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #17a2b8;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+  }

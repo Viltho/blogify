@@ -1,0 +1,15 @@
+
+.profilecard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.editdeletebuttons {
+    display: flex;
+    align-items: center;
+}
+
+.imginprofile {
+    margin: 20px 0px;
+    border-radius: 15px;
+}

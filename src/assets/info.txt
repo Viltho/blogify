@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Slot-Regular
+font link: https://www.behance.net/gallery/23688211/Slot-Free-Font
+font author: Adrien Coquet
+font author site: http://adrien-coquet.com/
+
+
+icon designer: María Florencia
+icon designer link: /azulplumbago
+        
+{"bg":"#5B359D","icon":"#9563C5","font":"#FFFFFF","slogan":"#ffffff"}
+      
