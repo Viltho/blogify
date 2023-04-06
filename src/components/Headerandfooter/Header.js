@@ -11,15 +11,15 @@ import axios from 'axios';
 export default function Header(props) {
 
   const { user, isAuthenticated, loginWithRedirect, isLoading, logout, error } = useAuth0();
-
+  const currentUser = user;
+  
   const [name, setname] = useState('');
   const [image, setimage] = useState('');
 
   const addUsers = async () => {
-    console.log(user);
     const datafromAuth = {
-      userFullName: user.name,
-      email: user.email
+      userFullName: currentUser.name,
+      email: currentUser.email
     }
 
     const axiosData = await axios.post(`${process.env.REACT_APP_Backend_Deploy_link}addUsers`, datafromAuth);
